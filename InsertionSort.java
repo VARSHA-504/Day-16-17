@@ -3,7 +3,7 @@ package com.bl;
 public class InsertionSort {
 
     public static void main(String[] args) {
-        String[] a = { "rutu", "hiiii", "welcome", "kop", "apple" };
+        String[] a = { "cat", "hiiii", "welcome", "dog", "apple" };
         int n = a.length;
         String sortedArray[] = sort(a, n);
         for (int i = 0; i < sortedArray.length; i++)
